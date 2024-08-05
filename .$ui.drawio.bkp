@@ -1,0 +1,63 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="grVGh7i5qs2SFV6OjQIk">
+    <mxGraphModel dx="1762" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="560" width="920" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="560" width="920" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hi&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Before I used motivation to hammer through ideas / projects, but now I use discipline in the form of project charters and requirement specifications.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="610" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-5" value="Project Charter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-6" value="Demo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-7" value="Sourcecode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-8" value="Requirement&lt;div&gt;Specification&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Complex Task System&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="830" width="265" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-11" value="Project Charter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-12" value="Demo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-13" value="Sourcecode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-14" value="Requirement&lt;div&gt;Specification&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Altiore Portal&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="1170" width="265" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.998;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.554;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UlCj_Jf7AxIFVmrNPLyU-2" target="UlCj_Jf7AxIFVmrNPLyU-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1120" as="sourcePoint" />
+            <mxPoint x="80" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="UlCj_Jf7AxIFVmrNPLyU-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlCj_Jf7AxIFVmrNPLyU-18" value="Full height auto-scroll pr. case" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1100" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
