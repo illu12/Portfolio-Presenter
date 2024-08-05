@@ -33,7 +33,7 @@ export default function Projects() {
             title: "CIS18 Assessment App (2024)",
             comment: "A finished MVP project, that enables quick CIS18 assessments and allows for attaching documentation to each safeguard, all while providing realtime collaboration features.",
             "pc": "/project-charter-cis18-app.pdf",
-            "rs": "/requirement-specification-cis18-app.pdf",
+            "rs": null,
             "source": "https://github.com/orgs/Altiorexx/repositories",
             "demo": "https://portal.altiore.io",
             "website": "https://altiore.io"
@@ -66,12 +66,18 @@ export default function Projects() {
                         <Typography variant="h2">{project.title}</Typography>
                         <Typography variant="subtitle1" sx={{ width: "30%", textAlign: "center" }}>{project.comment}</Typography>
                         <Grid container spacing={2} sx={{ marginTop: 2, justifyContent: 'center', alignItems: 'center' }}>
-                            <Grid item>
-                                <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.pc} download style={{ color: project.fontColor, textDecoration: "none" }}>Project Charter</a></Button>
-                            </Grid>
-                            <Grid item>
-                                <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.rs} download style={{ color: project.fontColor, textDecoration: "none" }}>Requirement Specification</a></Button>
-                            </Grid>
+                            {
+                                project.pc &&
+                                <Grid item>
+                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.pc} download style={{ color: project.fontColor, textDecoration: "none" }}>Project Charter</a></Button>
+                                </Grid>
+                            }
+                            {
+                                project.rs &&
+                                <Grid item>
+                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.rs} download style={{ color: project.fontColor, textDecoration: "none" }}>Requirement Specification</a></Button>
+                                </Grid>
+                            }
                             {
                                 project.source &&
                                 <Grid item>
