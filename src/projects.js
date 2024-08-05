@@ -23,7 +23,7 @@ export default function Projects() {
             comment: "A finished MVP project for Altiore, that functions as an interface for other services and common use cases such as group & user management. Altiore was a startup attempt to provide seamless and quick assessments e.g. CIS18, NIS2, ISO27001.",
             "pc": "/project-charter-altiore-portal.pdf",
             "rs": "/requirement-specification-altiore-portal.pdf",
-            "source": "https://github.com/Altiorexx",
+            "source": "https://github.com/orgs/Altiorexx/repositories",
             "demo": "https://portal.altiore.io",
             "website": "https://altiore.io"
         },
@@ -34,7 +34,7 @@ export default function Projects() {
             comment: "A finished MVP project, that enables quick CIS18 assessments and allows for attaching documentation to each safeguard, all while providing realtime collaboration features.",
             "pc": "/project-charter-cis18-app.pdf",
             "rs": "/requirement-specification-cis18-app.pdf",
-            "source": "https://github.com/Altiorexx",
+            "source": "https://github.com/orgs/Altiorexx/repositories",
             "demo": "https://portal.altiore.io",
             "website": "https://altiore.io"
         },
@@ -45,7 +45,7 @@ export default function Projects() {
             comment: "This website!",
             "pc": "/project-charter-portfolio-presenter.pdf",
             "rs": "/requirement-specification-portfolio-presenter.pdf",
-            "source": "link",
+            "source": "https://github.com/illu12/Portfolio-Presenter",
             "demo": null
         }
     ]
@@ -75,13 +75,13 @@ export default function Projects() {
                             {
                                 project.source &&
                                 <Grid item>
-                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}>Source code</Button><br />
+                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.source} target="_blank" style={{ color: project.fontColor, textDecoration: "none" }}>Sourcecode</a></Button>
                                 </Grid>
                             }
                             {
                                 project.demo &&
                                 <Grid item>
-                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}>Demo</Button>
+                                        <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.demo} target="_blank" style={{ color: project.fontColor, textDecoration: "none" }}>Demo</a></Button>
                                 </Grid>
                             }
                             {
