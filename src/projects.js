@@ -30,9 +30,9 @@ export default function Projects() {
         {
             bgColor: "teal",
             fontColor: "#fff",
-            title: "CIS18 Assessment App (2024)",
+            title: "CIS18 Assessment Tool (2024)",
             comment: "A finished MVP project, that enables quick CIS18 assessments and allows for attaching documentation to each safeguard, all while providing realtime collaboration features.",
-            "pc": "/project-charter-cis18-app.pdf",
+            "pc": "/project-charter-cis18-tool.pdf",
             "rs": null,
             "source": "https://github.com/orgs/Altiorexx/repositories",
             "demo": "https://portal.altiore.io",
