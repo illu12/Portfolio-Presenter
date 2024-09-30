@@ -57,7 +57,7 @@ export default function Projects() {
                 <Box sx={{ background: "teal", color: "#fff", height: "100vh", width: "100vw", scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                     <Box sx={{ display: "flex", width: "30%", textAlign: "left", justifyContent: "center", alignItems: "center", flexDirection: "row", gap: 2 }}>
                         <Typography variant="h1">Hi</Typography>
-                        <Typography variant="subtitle1">I believe <i>one thing alone doesn't make sense</i>, therefore I always perform preanalysis' to ensure I make the right thing, the first time ..... Here are a few of the things i've done!</Typography>
+                        <Typography variant="subtitle1">I genuinely enjoy making things and make them cohesive. Just recently, I adapted to use pre-analysis' & requirement specifications to make the process way better<br/><br/> ..... Here are a few of the things i've done!</Typography>
                     </Box>
                 </Box>
 
@@ -69,13 +69,13 @@ export default function Projects() {
                             {
                                 project.pc &&
                                 <Grid item>
-                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.pc} download style={{ color: project.fontColor, textDecoration: "none" }}>Project Charter</a></Button>
+                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.pc} download type="pdf" style={{ color: project.fontColor, textDecoration: "none" }}>Project Charter</a></Button>
                                 </Grid>
                             }
                             {
                                 project.rs &&
                                 <Grid item>
-                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.rs} download style={{ color: project.fontColor, textDecoration: "none" }}>Requirement Specification</a></Button>
+                                    <Button variant="outlined" sx={{ color: project.fontColor, borderColor: project.fontColor, '&:hover': { backgroundColor: 'gray', borderColor: project.fontColor } }}><a href={project.rs} download type="pdf" style={{ color: project.fontColor, textDecoration: "none" }}>Requirement Specification</a></Button>
                                 </Grid>
                             }
                             {
