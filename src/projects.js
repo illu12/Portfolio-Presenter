@@ -13,7 +13,7 @@ export default function Projects() {
             "pc": "/project-charter-moject.pdf",
             "rs": "/requirement-specification-moject.pdf",
             "source": null,
-            "demo": null,
+            "demo": "https://app.moject.io",
             "website": null
         },
         {
