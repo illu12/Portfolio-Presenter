@@ -55,9 +55,9 @@ export default function Projects() {
             <Box sx={{ height: '100vh', overflowY: 'scroll', scrollSnapType: 'y mandatory' }}>
                 
                 <Box sx={{ background: "teal", color: "#fff", height: "100vh", width: "100vw", scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <Typography variant="h2" mb={2}>Hi</Typography>
                     <Box sx={{ display: "flex", width: "30%", textAlign: "left", justifyContent: "center", alignItems: "center", flexDirection: "row", gap: 2 }}>
-                        <Typography variant="h1">Hi</Typography>
-                        <Typography variant="subtitle1">I genuinely enjoy making things and make them cohesive. Just recently, I adapted to use pre-analysis' & requirement specifications to make the process way better<br/><br/> ..... Here are a few of the things i've done!</Typography>
+                        <Typography variant="subtitle1">I genuinely enjoy making things, that works together in the big picture. Just recently, I adapted to use pre-analysis' & requirement specifications to make the process way better.<br/><br/> ..... Here are a few of the things i've done!</Typography>
                     </Box>
                 </Box>
 
