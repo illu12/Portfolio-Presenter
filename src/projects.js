@@ -13,40 +13,40 @@ export default function Projects() {
             "pc": "/project-charter-moject.pdf",
             "rs": "/requirement-specification-moject.pdf",
             "source": null,
-            "demo": "https://app.moject.io",
+            "demo": null, //"https://app.moject.io",
             "website": null
         },
-        {
-            bgColor: "teal",
-            fontColor: "#fff",
-            title: "Altiore Portal (2024)",
-            comment: "A finished MVP project for Altiore, that functions as an interface for other services and common use cases such as group & user management. Altiore was a startup attempt to provide seamless and quick assessments e.g. CIS18, NIS2, ISO27001.",
-            "pc": "/project-charter-altiore-portal.pdf",
-            "rs": "/requirement-specification-altiore-portal.pdf",
-            "source": "https://github.com/orgs/Altiorexx/repositories",
-            "demo": "https://portal.altiore.io",
-            "website": "https://altiore.io"
-        },
-        {
-            bgColor: "teal",
-            fontColor: "#fff",
-            title: "CIS18 Assessment Tool (2024)",
-            comment: "A finished MVP project, that enables quick CIS18 assessments and allows for attaching documentation to each safeguard, all while providing realtime collaboration features.",
-            "pc": "/project-charter-cis18-tool.pdf",
-            "rs": null,
-            "source": "https://github.com/orgs/Altiorexx/repositories",
-            "demo": "https://portal.altiore.io",
-            "website": "https://altiore.io"
-        },
+        // {
+        //     bgColor: "teal",
+        //     fontColor: "#fff",
+        //     title: "Altiore Portal (2024)",
+        //     comment: "A finished MVP project for Altiore, that functions as an interface for other services and common use cases such as group & user management. Altiore was a startup attempt to provide seamless and quick assessments e.g. CIS18, NIS2, ISO27001.",
+        //     "pc": "/project-charter-altiore-portal.pdf",
+        //     "rs": "/requirement-specification-altiore-portal.pdf",
+        //     "source": "https://github.com/orgs/Altiorexx/repositories",
+        //     "demo": "https://portal.altiore.io",
+        //     "website": "https://altiore.io"
+        // },
+        // {
+        //     bgColor: "teal",
+        //     fontColor: "#fff",
+        //     title: "CIS18 Assessment Tool (2024)",
+        //     comment: "A finished MVP project, that enables quick CIS18 assessments and allows for attaching documentation to each safeguard, all while providing realtime collaboration features.",
+        //     pc: "/project-charter-cis18-tool.pdf",
+        //     rs: null,
+        //     source: "https://github.com/orgs/Altiorexx/repositories",
+        //     demo: "https://portal.altiore.io",
+        //     website: "https://altiore.io"
+        // },
         {
             bgColor: "teal",
             fontColor: "#fff",
             title: "Portfolio Presenter (2024)",
             comment: "This website!",
-            "pc": "/project-charter-portfolio-presenter.pdf",
-            "rs": "/requirement-specification-portfolio-presenter.pdf",
-            "source": "https://github.com/illu12/Portfolio-Presenter",
-            "demo": null
+            pc: "/project-charter-portfolio-presenter.pdf",
+            rs: "/requirement-specification-portfolio-presenter.pdf",
+            source: "https://github.com/illu12/Portfolio-Presenter",
+            demo: null
         }
     ]
 
